@@ -146,3 +146,8 @@ footer > div {
 .botNav {
   display: block;
 }
+
+.gamess {
+  width: 50%;
+  height: auto;
+}
