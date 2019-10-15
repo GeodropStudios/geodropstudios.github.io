@@ -161,8 +161,12 @@ footer > div {
   height: auto;
 }
 
+.artTitle {
+  margin-bottom: 0px;
+}
+
 .artDate {
   color: #c4c4c4;
   font-size: 13px;
-  display: inline;
+  margin: 0px;
 }
