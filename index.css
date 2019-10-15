@@ -160,3 +160,8 @@ footer > div {
   width: 80%;
   height: auto;
 }
+
+.artDate {
+  color: #c4c4c4;
+  font-size: 10px;
+}
