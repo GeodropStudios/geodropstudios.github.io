@@ -140,6 +140,8 @@ footer > div {
 .botLogoWrapper img {
   display: inline-block;
   vertical-align: middle;
+  height: 20px;
+  width: 20px;
 }
 
 .botLogoWrapper h3 {
