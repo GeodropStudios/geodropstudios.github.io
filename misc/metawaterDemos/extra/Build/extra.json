@@ -1,7 +1,7 @@
 {
 "companyName": "Anders Steen",
 "productName": "Metawater",
-"productVersion": "1.1",
+"productVersion": "1.2",
 "dataUrl": "extra.data.unityweb",
 "wasmCodeUrl": "extra.wasm.code.unityweb",
 "wasmFrameworkUrl": "extra.wasm.framework.unityweb",
