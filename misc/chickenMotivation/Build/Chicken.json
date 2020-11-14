@@ -1,7 +1,7 @@
 {
 "companyName": "KTH Division of Robotics, Perception and Learning",
 "productName": "ChickenMotivation",
-"productVersion": "1.1.0",
+"productVersion": "1.1.1",
 "dataUrl": "Chicken.data.unityweb",
 "wasmCodeUrl": "Chicken.wasm.code.unityweb",
 "wasmFrameworkUrl": "Chicken.wasm.framework.unityweb",
