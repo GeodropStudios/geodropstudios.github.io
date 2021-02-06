@@ -1,7 +1,7 @@
 {
 "companyName": "KTH Division of Robotics, Perception and Learning",
-"productName": "Chicken",
-"productVersion": "trajectory-a-0.0.1",
+"productName": "Chicken Trajectory A",
+"productVersion": "3.0.0",
 "dataUrl": "chickenTrajectoryA.data.unityweb",
 "wasmCodeUrl": "chickenTrajectoryA.wasm.code.unityweb",
 "wasmFrameworkUrl": "chickenTrajectoryA.wasm.framework.unityweb",
