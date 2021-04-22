@@ -100,42 +100,4 @@
   </body>
 
   <script src="Build/UnityLoader.js"></script>
-  <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/globalCompetenceProject.json", {onProgress: UnityProgress});
-  function UnityProgress(gameInstance, progress) {
-    if (!gameInstance.Module) {
-      return;
-    }
-    const loader = document.querySelector("#loader");
-    if (!gameInstance.progress) {
-      const progress = document.querySelector("#loader .progress");
-      progress.style.display = "block";
-      gameInstance.progress = progress.querySelector(".full");
-      loader.querySelector(".spinner").style.display = "none";
-    }
-    gameInstance.progress.style.transform = `scaleX(${progress})`;
-    if (progress === 1 && !gameInstance.removeTimeout) {
-      gameInstance.removeTimeout = setTimeout(function() {
-          loader.style.display = "none";
-      }, 2000);
-    }
-  }
-
-  // Send the referer to the ExperimentDataManager for processing.
-  // This decides whether to send the experiment data or not.
-  window.setInterval(function(){gameInstance.SendMessage("ExperimentDataManager", "ProcessReferrer", document.referrer);}, 10000);
-
-  // Collect data about the user's browser and device.
-  var usedBrowser = navigator.userAgent; // Detect browser.
-  var userWidth = screen.availWidth; // Detect user screen width.
-  var userHeight = screen.availHeight; // Detect user screen height.
-  var devicePixels = window.devicePixelRatio;
-  // Detect color and pixel depth.
-  var colorDepth = screen.colorDepth;
-  var pixelDepth = screen.pixelDepth;
-
-  // Compile the data into a string separated by the string token "SPLIT" and send the data to Unity.
-  var compiledData = usedBrowser + "SPLIT" + userWidth + "SPLIT" + userHeight + "SPLIT" + devicePixels + "SPLIT" + colorDepth + "SPLIT" + pixelDepth;
-  window.setInterval(function(){gameInstance.SendMessage("ExperimentDataManager", "ProcessBrowserData", compiledData);}, 10000);
-  </script>
 </html>
