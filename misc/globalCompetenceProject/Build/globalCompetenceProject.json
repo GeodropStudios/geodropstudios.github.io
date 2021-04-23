@@ -1,7 +1,7 @@
 {
 "companyName": "GeodropStudios",
 "productName": "GlobalCompetenceProject",
-"productVersion": "0.1",
+"productVersion": "1.0",
 "dataUrl": "globalCompetenceProject.data.unityweb",
 "wasmCodeUrl": "globalCompetenceProject.wasm.code.unityweb",
 "wasmFrameworkUrl": "globalCompetenceProject.wasm.framework.unityweb",
