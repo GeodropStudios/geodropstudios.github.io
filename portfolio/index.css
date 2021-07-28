@@ -48,6 +48,7 @@ html {
   width: 33%;
   color: white;
   background-color: #A60798;
+  cursor: pointer;
 }
 
 .nav-link:hover {
@@ -55,11 +56,11 @@ html {
 }
 
 #projects {
-  display: block;
+  display: none;
 }
 
 #games {
-  display: none;
+  display: block;
 }
 
 #papers {
