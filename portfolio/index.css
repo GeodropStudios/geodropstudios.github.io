@@ -45,7 +45,7 @@ html {
   display: table-cell;
   padding: 1em;
   margin: 0px;
-  width: 33%;
+  width: 25%;
   color: white;
   background-color: #A60798;
   cursor: pointer;
@@ -61,6 +61,10 @@ html {
 
 #games {
   display: block;
+}
+
+#art {
+  display: none;
 }
 
 #papers {
